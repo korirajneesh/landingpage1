@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.3));
+    
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: serif;
+    
+}
+.logo{
+    letter-spacing: 2px;
+    color: white;
+    font: 100  2vmax "gilroy";
+
+}
+.menu a{
+     text-decoration: none;
+    color: white;
+    font: 100 1.4vmax "gilroy";
+    padding: 10px 20px;
+    font-size: 20px;
+
+}
+.Register a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 8px;
+    background: indianred;
+
+}
+.menu a:hover{
+    color: red;
+    transition: 3.6s;
+}
+.header-text{
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+.header-text span{   
+  
+    letter-spacing: 2px;
+    font: 100  2vmax "gilroy";
+   
+}
+.header-text h1{    
+
+    color: white;
+    font: 100  5vmax "gilroy";
+   
+   
+}
+
+.header-text a{ 
+    color: blue;   
+    letter-spacing: 2px;
+    font-size: 20px;
+    font: 100  1.5vmax "gilroy";
+    text-decoration: none;
+    background: indianred;
+    padding: 10px 10px;
+    border-radius: 6px;
+   
+}
+
+
